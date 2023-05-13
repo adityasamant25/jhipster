@@ -45,7 +45,7 @@ spring:
   jpa:
   liquibase:
     # Remove 'faker' if you do not want the sample data to be loaded automatically
-    contexts: dev, faker
+    contexts: dev
   mail:
     host: localhost
     port: 25
@@ -85,7 +85,7 @@ jhipster:
     authentication:
       jwt:
         # This token must be encoded using Base64 and be at least 256 bits long (you can type `openssl rand -base64 64` on your command line to generate a 512 bits one)
-        base64-secret: M2E1ZTg4MWZmNTMzMzMwMTQzMGZkZmFjNGZjMDFmMDRiM2YzYjQ0NmYzNjE2ZTA0NDFiMjgzMjFmMzAzZjA1MzBiNmEzMzQ4Yjk0YzdhYTg2YTlhY2MyMDVlMzJlYTYzNjJiMDRhYWFhNDM3NjI5M2E0ZWRiMWYwNzIwZGQ2Zjc=
+        base64-secret: YjlkNzE2OGVjNGZhOGE3NWY5ZWUwNDk0NGY5NzQ5ZmUzYmU0NmYzNTkyMmNiM2I2YTJjNjdhMTBjMTIxMjBjNTMwOTc2Y2ZjZWRjMGJjOWRmYWJmODg2MWMxNGE1ZmEzYWM4YzQ5NTBmNGY3NTY3MjJmYzZiMmQ0NWVkYTNkMmQ=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 2592000
